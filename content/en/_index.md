@@ -1,12 +1,17 @@
+## Note: The English version is currently under development.
+
 # Takashi Goto
 
-## Research field
+I am a researcher in nonequilibrium physics, focusing on active and soft matter systems.
 
-Active matter, Soft matter, Biophysics
+## Affiliation
+
+Department of Physics, The University of Tokyo
 
 ## Updates
 
-## Others
+- 2026-05: Website home page refreshed.
 
 ## Contact
-takashigoto \[at\] noneq.phys.s.u-tokyo.ac.jp
+
+takashigoto \_at\_ noneq.phys.s.u-tokyo.ac.jp

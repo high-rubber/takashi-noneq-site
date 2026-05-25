@@ -4,6 +4,11 @@
     <title>Tags on Takashi Goto</title>
     <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in Tags on Takashi Goto</description>
+    <image>
+      <title>Takashi Goto</title>
+      <url>http://localhost:1313/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg</url>
+      <link>http://localhost:1313/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />

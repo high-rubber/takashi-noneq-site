@@ -1,31 +1,56 @@
 baseURL = "https://takashi-noneq.com/"
 theme = "PaperMod"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     weight = 1
     title = "Takashi Goto"
+    contentDir = "content/en"
 
-    [[languages.en.menu.main]]
-      name = "CV"
-      url = "/en/cv/"
-      weight = 10
-
-    [[languages.en.menu.main]]
-      name = "Research"
-      url = "/en/Research/"
-      weight = 20
-
-    [[languages.en.menu.main]]
-      name = "Presentations"
-      url = "/en/Presentations/"
-      weight = 20
+#    [[languages.en.menu.main]]
+#      name = "CV"
+#      url = "/en/cv/"
+#      weight = 10
+#
+#    [[languages.en.menu.main]]
+#      name = "Research"
+#      url = "/en/research/"
+#      weight = 20
+#
+#    [[languages.en.menu.main]]
+#      name = "Presentations"
+#      url = "/en/presentations/"
+#      weight = 20
 
   [languages.ja]
-    languageName = "日本語"
+    label = "日本語"
     weight = 2
     title = "後藤 崇志"
+    contentDir = "content/ja"
+
+    [[languages.ja.menu.main]]
+      name = "略歴・プロフィール"
+      url = "/ja/cv/"
+      weight = 10
+
+    [[languages.ja.menu.main]]
+      name = "研究内容"
+      url = "/ja/research/"
+      weight = 20
+
+    [[languages.ja.menu.main]]
+      name = "発表・学術講演"
+      url = "/ja/presentations/"
+      weight = 20
+
+    [[languages.ja.menu.main]]
+      name = "リンク"
+      url = "/ja/link/"
+      weight = 20
+
+[params]
+  images = ["/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg"]
