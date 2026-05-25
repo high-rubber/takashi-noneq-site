@@ -1,0 +1,4 @@
+baseURL = "https://your-domain.com/"
+locale = "en-US"
+title = "Takashi Goto"
+theme = "blowfish"
