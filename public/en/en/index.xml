@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Takashi Goto</title>
+    <link>http://localhost:1313/en/en/</link>
+    <description>Recent content on Takashi Goto</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/en/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/en/cv/</guid>
+      <description>&lt;h1 id=&#34;takashi-goto&#34;&gt;Takashi Goto&lt;/h1&gt;
+&lt;p&gt;Ph.D. student at Department of Physics, The University of Tokyo
+7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan&lt;/p&gt;
+&lt;h2 id=&#34;research-experience&#34;&gt;RESEARCH EXPERIENCE&lt;/h2&gt;
+&lt;p&gt;PhD Research, Department of Physics, The University of Tokyo, Tokyo (2022-)
+Investigation of the external field response of collective states of bacteria using magnetotactic bacteria
+Confine cells of magnetotactic bacteria in quasi-2D space to observe the collective alignment of cells
+Apply a magnetic field to the collective state of magnetotactic to measure magnetic field response&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/en/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/en/presentations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/en/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/en/research/</guid>
+      <description>&lt;h2 id=&#34;conference-presentations&#34;&gt;CONFERENCE PRESENTATIONS&lt;/h2&gt;
+&lt;p&gt;Magnetic field response of collective orientation of magnetotactic bacteria in quasi-2D space, Soft Liquid Matter Physics 2025, Tokyo, Japan, March 2025
+Response of collective orientation of magnetotactic bacteria to a stationary magnetic field, International Active Matter Workshop 2025, Tokyo, Japan, Jan 2025
+擬二次元系におけるバクテリア集団の配向秩序と定常磁場応答, 12th Soft Matter Meeting, Osaka, Japan, Dec 2024
+擬二次元系におけるバクテリア集団の磁場応答, Soft matter meeting for young researchers &amp;amp; students, Chiba, Japan, Nov 2024
+擬二次元系における磁性細菌の配向秩序 (Orientational order of magnetotactic bacteria in quasi-2D system), 2024 Annual (79th) Meeting (The Physical Society of Japan), Hokkaido, Japan, September 2024
+Observation of collective states of magnetotactic bacteria confined circular wells, Frontiers in Non-equilibrium Physics 2024, Kyoto, Japan, July 2024
+磁性細菌の集団運動と磁場応答, Kanto Soft matter, Kanagawa, Japan, Oct 2023&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
