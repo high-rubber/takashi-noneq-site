@@ -40,17 +40,22 @@ defaultContentLanguageInSubdir = true
     [[languages.ja.menu.main]]
       name = "研究内容"
       url = "/ja/research/"
-      weight = 20
+      weight = 11
 
     [[languages.ja.menu.main]]
       name = "発表・学術講演"
       url = "/ja/presentations/"
-      weight = 20
+      weight = 12
+
+    [[languages.ja.menu.main]]
+      name = "備忘録"
+      url = "/ja/notebook/"
+      weight = 12
 
     [[languages.ja.menu.main]]
       name = "リンク"
       url = "/ja/link/"
-      weight = 20
+      weight = 33
 
 [params]
   images = ["/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg"]

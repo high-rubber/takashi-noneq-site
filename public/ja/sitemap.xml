@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -17,6 +18,12 @@
     <loc>http://localhost:1313/ja/cv/</loc>
   </url><url>
     <loc>http://localhost:1313/ja/link/</loc>
+  </url><url>
+    <loc>http://localhost:1313/ja/notebook/20231002/</loc>
+  </url><url>
+    <loc>http://localhost:1313/ja/notebook/20260527/</loc>
+  </url><url>
+    <loc>http://localhost:1313/ja/notebook/</loc>
   </url><url>
     <loc>http://localhost:1313/ja/presentations/</loc>
   </url><url>
