@@ -50,7 +50,7 @@ defaultContentLanguageInSubdir = true
     [[languages.ja.menu.main]]
       name = "備忘録"
       url = "/ja/notebook/"
-      weight = 12
+      weight = 20
 
     [[languages.ja.menu.main]]
       name = "リンク"

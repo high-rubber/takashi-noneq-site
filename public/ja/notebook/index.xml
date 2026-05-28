@@ -1,29 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>後藤 崇志</title>
-		<link>http://localhost:1313/ja/notebook/</link>
-		<description>Recent content on 後藤 崇志</description>
-		<generator>Hugo</generator>
-		<language>ja</language>
-		
-		
-		
-		
-			<atom:link href="http://localhost:1313/ja/notebook/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title></title>
-				<link>http://localhost:1313/ja/notebook/20231002/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/ja/notebook/20231002/</guid>
-				<description>&lt;h1 id=&#34;20231002-郡研究室&#34;&gt;20231002 郡研究室&lt;/h1&gt;&#xA;&lt;p&gt;石井さんと共同で企画して、&lt;a href=&#34;https://www.hk.k.u-tokyo.ac.jp/&#34;&gt;非線形物理学（郡・小林・泉田）研究室&lt;/a&gt;を見学しました。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title></title>
-				<link>http://localhost:1313/ja/notebook/20260527/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/ja/notebook/20260527/</guid>
-				<description>&lt;h1 id=&#34;20260527-住野研究室&#34;&gt;20260527 住野研究室&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://qyoshii.github.io/jp.html&#34;&gt;吉井さん&lt;/a&gt;にコンタクトを取って、住野研究室を見学しました。&lt;/p&gt;</description>
-			</item>
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>後藤 崇志</title>
+    <link>http://localhost:1313/ja/notebook/</link>
+    <description>Recent content on 後藤 崇志</description>
+    <image>
+      <title>後藤 崇志</title>
+      <url>http://localhost:1313/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg</url>
+      <link>http://localhost:1313/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/ja/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20220929/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20220929/</guid>
+      <description>&lt;h1 id=&#34;20220929-20220930-研究室滞在生体分子生理学研究室&#34;&gt;20220929-20220930 研究室滞在：生体分子生理学研究室&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://researchmap.jp/magnetosome&#34;&gt;田岡 東さん&lt;/a&gt;の&lt;a href=&#34;https://pronet.w3.kanazawa-u.ac.jp/&#34;&gt;研究室&lt;/a&gt;に滞在して、磁性細菌の培養方法や基本知識等をご教示いただきました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20231002/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20231002/</guid>
+      <description>&lt;h1 id=&#34;20231002-研究交流企画非線形物理学郡小林泉田研究室&#34;&gt;20231002 研究交流企画：非線形物理学（郡・小林・泉田）研究室&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/ishiihidemasa/home&#34;&gt;石井 秀昌さん&lt;/a&gt;と共同で、&lt;a href=&#34;https://www.hk.k.u-tokyo.ac.jp/&#34;&gt;非線形物理学（郡・小林・泉田）研究室&lt;/a&gt;の訪問・ショートセミナーを企画しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20231021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20231021/</guid>
+      <description>&lt;h1 id=&#34;20231021-研究室訪問栗田研究室&#34;&gt;20231021 研究室訪問：栗田研究室&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2506.22369&#34;&gt;嶋本さん&lt;/a&gt;（とその他大勢）と&lt;a href=&#34;https://soft.fpark.tmu.ac.jp/&#34;&gt;栗田研究室&lt;/a&gt;を訪問しました。&lt;a href=&#34;https://soft.fpark.tmu.ac.jp/ks/ks2023.html&#34;&gt;関東ソフトマター&lt;/a&gt;の休み時間に、嶋本さんと栗田研究室のどなたかとお話していたら、研究室を見せてくださるということになり、他に見学に行く人を集めたらどんどん人数が大きくなって大所帯になっちゃった&amp;hellip;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20240316/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20240316/</guid>
+      <description>&lt;h1 id=&#34;20240316-研究室訪問biophysics-and-bioengineering-lab&#34;&gt;20240316 研究室訪問：Biophysics and Bioengineering Lab&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://researchmap.jp/shuichinakamura&#34;&gt;中村 修一さん&lt;/a&gt;にコンタクトを取って、&lt;a href=&#34;https://web.tohoku.ac.jp/bp/&#34;&gt;Biophysics and Bioengineering Lab&lt;/a&gt;を訪問しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20240319/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20240319/</guid>
+      <description>&lt;h1 id=&#34;20240319-相互研究室見学会yanagisawa-lab&#34;&gt;20240319 相互研究室見学会：Yanagisawa Lab&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2505.08475&#34;&gt;齋藤 駿一さん&lt;/a&gt;と共同で、&lt;a href=&#34;https://sites.google.com/g.ecc.u-tokyo.ac.jp/yanagisawa-lab/&#34;&gt;Yanagisawa Lab&lt;/a&gt;と相互研究室見学会を開催しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20240723/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20240723/</guid>
+      <description>&lt;h1 id=&#34;20240723-研究室訪問時空間秩序生命物理研究室&#34;&gt;20240723 研究室訪問：時空間秩序・生命物理研究室&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://sites.google.com/site/wwwmarietani/home&#34;&gt;谷 茉莉さん&lt;/a&gt;にコンタクトを取って、&lt;a href=&#34;https://chem.scphys.kyoto-u.ac.jp/&#34;&gt;時空間秩序・生命物理研究室&lt;/a&gt;を訪問しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20241219/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20241219/</guid>
+      <description>&lt;h1 id=&#34;20241219-研究室訪問桂木研究室&#34;&gt;20241219 研究室訪問：桂木研究室&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2506.22369&#34;&gt;嶋本 大祐さん&lt;/a&gt; &lt;del&gt;について行って&lt;/del&gt; と一緒に、&lt;a href=&#34;http://life.ess.sci.osaka-u.ac.jp/&#34;&gt;桂木研究室&lt;/a&gt;を訪問しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/notebook/20260527/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/notebook/20260527/</guid>
+      <description>&lt;h1 id=&#34;20260527-研究室訪問人工生命物理学研究室&#34;&gt;20260527 研究室訪問：人工生命物理学研究室&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://qyoshii.github.io/jp.html&#34;&gt;吉井 究さん&lt;/a&gt;にコンタクトを取って、&lt;a href=&#34;https://www.rs.tus.ac.jp/sumino_lab/&#34;&gt;人工生命物理学研究室&lt;/a&gt;を見学しました。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
