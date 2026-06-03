@@ -23,8 +23,11 @@ def make_square_canvas(
     """
     Resize the image to fit within a square canvas while maintaining aspect ratio and center it.
     """
-    # Correctly apply EXIF rotation
-    img = ImageOps.exif_transpose(img)
+    # Correctly apply EXIF rotation.
+    # Some type stubs model exif_transpose as possibly returning None.
+    transposed = ImageOps.exif_transpose(img)
+    if transposed is not None:
+        img = transposed
 
     # Convert to RGBA (for transparency) if not already in that mode
     if img.mode != "RGBA":

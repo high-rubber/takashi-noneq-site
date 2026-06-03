@@ -1,16 +1,28 @@
-## Note: The English version is currently under development.
+![](/images/index_img.jpg)
 
 # Takashi Goto
 
-I am a researcher in nonequilibrium physics, focusing on active and soft matter systems.
+I study nonequilibrium phenomena in many-body soft matter systems.
+
+## Research Keywords
+
+- Soft matter
+- Biological systems (as materials and observation targets)
+- Nonequilibrium
 
 ## Affiliation
 
-Department of Physics, The University of Tokyo
+- Department of Physics, Graduate School of Science, The University of Tokyo, [Takeuchi Laboratory](https://lab.kaztake.org/)
 
-## Updates
+## Update History
 
-- 2026-05: Website home page refreshed.
+- 2026-05: Created this homepage.
+
+## Quick Links
+
+- [CV / Profile](/en/cv/)
+- [Research](/en/research/)
+- [Presentations / Talks](/en/presentations/)
 
 ## Contact
 

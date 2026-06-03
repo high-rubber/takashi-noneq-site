@@ -1,4 +1,4 @@
-![](/images/takashigoto_hotpot_c1o3.jpg)
+![](/images/index_img.jpg)
 
 # 後藤 崇志（ごとう たかし）
 
