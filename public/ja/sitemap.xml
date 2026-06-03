@@ -16,32 +16,160 @@
                 />
   </url><url>
     <loc>http://localhost:1313/ja/cv/</loc>
-  </url><url>
-    <loc>http://localhost:1313/ja/link/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/cv/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20220929/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20220929/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20220929/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20231002/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20231002/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20231002/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20231021/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20231021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20231021/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20240316/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20240316/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20240316/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20240319/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20240319/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20240319/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20240723/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20240723/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20240723/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20241219/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20241219/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20241219/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20250918/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20250918/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20250918/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/20260527/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/20260527/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/20260527/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/notebook/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/notebook/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/notebook/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/presentations/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/presentations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/presentations/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/ja/research/"
+                />
   </url><url>
     <loc>http://localhost:1313/ja/categories/</loc>
     <xhtml:link

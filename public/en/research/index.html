@@ -7,14 +7,18 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Takashi Goto</title>
 <meta name="keywords" content="">
-<meta name="description" content="Research">
+<meta name="description" content="Research
+I am interested in how systems composed of non-equilibrium elements exhibit collective phenomena. Examples include granular systems, where particle sizes are large and thermal relaxation is negligible, and active matter systems, where particles consume energy and self-propel.
+Currently, I conduct experiments with bacteria and colloidal systems to measure the response of orientational order under applied magnetic fields in active matter.
+Skills I Believe I Have
+I designed and built experimental setups to apply magnetic fields to active systems and observe their behavior. Through this work, I developed skills in the following areas.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/en/research/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="http://localhost:1313/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
@@ -108,13 +112,18 @@
                 </a>
             </li>
             <li>
+                <a href="http://localhost:1313/en/research/" title="Research">
+                    <span class="active">Research</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/en/presentations/" title="Presentations">
                     <span>Presentations</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/en/research/" title="Research">
-                    <span class="active">Research</span>
+                <a href="http://localhost:1313/en/notebook/" title="Notebook">
+                    <span>Notebook</span>
                 </a>
             </li>
         </ul>
@@ -140,6 +149,27 @@
 </div>
   </header> 
   <div class="post-content md-content"><h1 id="research">Research<a hidden class="anchor" aria-hidden="true" href="#research">#</a></h1>
+<p>I am interested in how systems composed of non-equilibrium elements exhibit collective phenomena. Examples include granular systems, where particle sizes are large and thermal relaxation is negligible, and active matter systems, where particles consume energy and self-propel.</p>
+<p>Currently, I conduct experiments with bacteria and colloidal systems to measure the response of orientational order under applied magnetic fields in active matter.</p>
+<h2 id="skills-i-believe-i-have">Skills I Believe I Have<a hidden class="anchor" aria-hidden="true" href="#skills-i-believe-i-have">#</a></h2>
+<p>I designed and built experimental setups to apply magnetic fields to active systems and observe their behavior. Through this work, I developed skills in the following areas.</p>
+<h3 id="camera-systems">Camera Systems<a hidden class="anchor" aria-hidden="true" href="#camera-systems">#</a></h3>
+<ul>
+<li>I wrote code to control USB cameras (GenICam) and high-speed imaging cameras (FASTCAM). These are operated in synchronization with the coil-related devices described below.</li>
+<li>The former was implemented in Python, and the latter in C++.</li>
+</ul>
+<h3 id="coil-design-and-fabrication">Coil Design and Fabrication<a hidden class="anchor" aria-hidden="true" href="#coil-design-and-fabrication">#</a></h3>
+<ul>
+<li>I designed and built coils to apply magnetic fields to samples for microscopic observation.</li>
+<li>In practice, this requires balancing trade-offs: air-core coils are used to produce a uniform field, while strong fields are also needed. Simply increasing coil turns or current can exceed power-supply limits or overheat and damage the coil.</li>
+<li>To address this, I modeled coil heating and cooling (thermal diffusion) and designed coils that can generate sufficiently strong fields within power-supply specifications without burning out.</li>
+</ul>
+<h3 id="coil-control">Coil Control<a hidden class="anchor" aria-hidden="true" href="#coil-control">#</a></h3>
+<ul>
+<li>This research requires applying magnetic fields to samples while simultaneously observing samples and monitoring magnetic-field output. I developed control code to perform these operations.</li>
+<li>Devices (coil power supplies and data loggers that monitor coil output) are controlled via SCPI and VISA communication.</li>
+<li>I also implemented parallel control with the cameras so each device can run concurrently. (This is actually quite tricky due to VISA-related constraints.) This enabled the measurement experiments described above.</li>
+</ul>
 
 
   </div>
