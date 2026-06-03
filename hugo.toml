@@ -56,7 +56,7 @@ defaultContentLanguageInSubdir = true
       weight = 20
 
 [params]
-  images = ["/images/takashigoto_mayfes_m_sb50pix-binthresh215.jpg"]
+  images = ["/images/apple-touch-icon.png"]
   
   [params.assets]
     favicon = "/images/favicon.ico"

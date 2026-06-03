@@ -1,3 +1,8 @@
+"""
+This code resizez an image, for the use in the profile page of the website.
+It takes a large image, makes it smaller, and saves it as a new file.
+"""
+
 import cv2
 
 img = cv2.imread("tks2026_tus.jpg")
