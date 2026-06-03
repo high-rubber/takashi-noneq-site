@@ -11,13 +11,15 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 # ===== Setting =====
-INPUT_IMAGE = "takashigoto_mayfes_m_sb50pix-binthresh215.jpg"   # Input image path
+INPUT_IMAGE = "tks2026_tus_gf5_binauto.png"  # Input image path
 OUTPUT_DIR = ""  # Output directory
 BG_COLOR = (255, 255, 255, 0)  # Background color (RGBA). Keep as is for transparency
 # ==============
 
 
-def make_square_canvas(img: Image.Image, size: int, bg_color=(255, 255, 255, 0)) -> Image.Image:
+def make_square_canvas(
+    img: Image.Image, size: int, bg_color=(255, 255, 255, 0)
+) -> Image.Image:
     """
     Resize the image to fit within a square canvas while maintaining aspect ratio and center it.
     """
@@ -39,7 +41,9 @@ def make_square_canvas(img: Image.Image, size: int, bg_color=(255, 255, 255, 0))
     return canvas
 
 
-def save_png(img: Image.Image, path: Path, size: int, bg_color=(255, 255, 255, 0)) -> None:
+def save_png(
+    img: Image.Image, path: Path, size: int, bg_color=(255, 255, 255, 0)
+) -> None:
     square = make_square_canvas(img, size, bg_color=bg_color)
     square.save(path, format="PNG", optimize=True)
 
