@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 # ===== Setting =====
-INPUT_IMAGE = "tks2026_tus_gf5_binauto.png"  # Input image path
+INPUT_IMAGE = "icon.png"  # Input image path
 OUTPUT_DIR = ""  # Output directory
 BG_COLOR = (255, 255, 255, 0)  # Background color (RGBA). Keep as is for transparency
 # ==============

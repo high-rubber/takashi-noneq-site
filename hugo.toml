@@ -1,7 +1,7 @@
 baseURL = "https://takashi-noneq.com/"
 theme = "PaperMod"
 
-defaultContentLanguage = "ja"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [languages]
@@ -56,7 +56,7 @@ defaultContentLanguageInSubdir = true
       weight = 20
 
 [params]
-  images = ["/images/apple-touch-icon.png"]
+  images = ["/images/icon.png"]
   
   [params.assets]
     favicon = "/images/favicon.ico"

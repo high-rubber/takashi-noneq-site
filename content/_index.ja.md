@@ -1,4 +1,4 @@
-![](/images/index_img.jpg)
+![](/images/idximg_small.jpg)
 
 # 後藤 崇志（ごとう たかし）
 

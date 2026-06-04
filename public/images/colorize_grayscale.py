@@ -1,3 +1,11 @@
+"""
+This code colorizes a grayscale image by mapping the pixel intensity (0-255)
+to a color gradient defined by two RGB colors.
+The user can specify the colors for black and white,
+and the code will interpolate between them to create a colored version of the grayscale image.
+The output is saved as a new image file.
+"""
+
 import cv2
 import numpy as np
 
