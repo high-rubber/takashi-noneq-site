@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,71 +29,14 @@ I contacted Shuichi Nakamura and visited the Biophysics and Bioengineering Lab."
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-    </style>
 </noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
             <a href="http://localhost:1313/en/" accesskey="h" title="Takashi Goto (Alt + H)">Takashi Goto</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button><span class="nav-sep">|</span>
+            <div class="logo-switches"><span class="nav-sep">|</span>
                     <ul class="lang-menu">
                         <li>
                             <a href="http://localhost:1313/ja/" title="日本語"
@@ -175,7 +118,104 @@ I contacted Shuichi Nakamura and visited the Biophysics and Bioengineering Lab."
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
-</a>
+</a><style>
+  .detail-toggle {
+    background: none;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    padding: 1px 8px;
+    cursor: pointer;
+    font-size: 0.85em;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  .detail-toggle:hover {
+    opacity: 1;
+  }
+
+  .detail-inline {
+    padding: 6px 12px 10px;
+    font-size: 0.9em;
+    opacity: 0.85;
+    background: none;
+    margin-top: 6px;
+  }
+
+  .detail-inline table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 4px 0;
+  }
+
+  .md-content .detail-inline table th,
+  .md-content .detail-inline table td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .detail-inline table th:first-child,
+  .detail-inline table td:first-child {
+    background: rgba(127, 127, 127, 0.12);
+    background: color-mix(in srgb, currentColor 10%, transparent);
+    white-space: nowrap;
+  }
+
+  .cv-main-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .md-content .cv-main-table>tbody>tr>th,
+  .md-content .cv-main-table>tbody>tr>td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .cv-main-table>tbody>tr>th:first-child,
+  .cv-main-table>tbody>tr>td:first-child {
+    background: rgba(127, 127, 127, 0.12);
+    background: color-mix(in srgb, currentColor 10%, transparent);
+    white-space: nowrap;
+  }
+
+  .cv-main-table>tbody>tr:last-child>th,
+  .cv-main-table>tbody>tr:last-child>td {
+    border-bottom: none;
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('button.detail-toggle').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var cell = btn.closest('td');
+        var detail = cell.querySelector('.detail-inline');
+        if (detail) {
+          detail.remove();
+          btn.textContent = '▶ Details';
+        } else {
+          var detailInline = document.createElement('div');
+          detailInline.className = 'detail-inline';
+          detailInline.innerHTML = btn.dataset.detail;
+          cell.appendChild(detailInline);
+          btn.textContent = '▼ Details';
+        }
+      });
+    });
+  });
+</script>
 
 <script>
     let menu = document.getElementById('menu');
@@ -221,19 +261,6 @@ I contacted Shuichi Nakamura and visited the Biophysics and Bioengineering Lab."
             toplink.classList.add("hidden");
         }
     };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
 </script>
 </body>

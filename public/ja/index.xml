@@ -135,7 +135,21 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ja/presentations/</guid>
       <description>&lt;h1 id=&#34;発表学術講演&#34;&gt;発表・学術講演&lt;/h1&gt;
-&lt;p&gt;開発中&amp;hellip;いましばらくお待ちください&amp;hellip;&lt;/p&gt;</description>
+&lt;p&gt;開発中&amp;hellip;いましばらくお待ちください&amp;hellip;&lt;/p&gt;
+&lt;!-- 
+## 2025
+- Magnetic field response of collective orientation of magnetotactic bacteria in quasi-2D space, Soft Liquid Matter Physics 2025, Tokyo, Japan, March 2025
+- Response of collective orientation of magnetotactic bacteria to a stationary magnetic field, International Active Matter Workshop 2025, Tokyo, Japan, Jan 2025
+
+## 2024
+- 擬二次元系におけるバクテリア集団の配向秩序と定常磁場応答, 12th Soft Matter Meeting, Osaka, Japan, Dec 2024
+- 擬二次元系におけるバクテリア集団の磁場応答, Soft matter meeting for young researchers &amp; students, Chiba, Japan, Nov 2024
+- 擬二次元系における磁性細菌の配向秩序 (Orientational order of magnetotactic bacteria in quasi-2D system), 2024 Annual (79th) Meeting (The Physical Society of Japan), Hokkaido, Japan, September 2024
+- Observation of collective states of magnetotactic bacteria confined circular wells, Frontiers in Non-equilibrium Physics 2024, Kyoto, Japan, July 2024
+
+## 2023
+- 磁性細菌の集団運動と磁場応答, Kanto Soft matter, Kanagawa, Japan, Oct 2023
+--&gt;</description>
     </item>
     <item>
       <title></title>
@@ -144,9 +158,9 @@
       <guid>http://localhost:1313/ja/research/</guid>
       <description>&lt;h1 id=&#34;研究内容&#34;&gt;研究内容&lt;/h1&gt;
 &lt;p&gt;非平衡な要素が集まった系が集団としてどのような現象を見せるのかに興味を持っています。例えば、粒子サイズが非常に大きく熱緩和が無視できる粉体系や、粒子がエネルギーを消費して自己駆動するアクティブマターといった系などです。&lt;/p&gt;
-&lt;p&gt;現在は、アクティブマターに磁場を印加して配向秩序の応答を測定する実験を、バクテリアとコロイド系で行っています。&lt;/p&gt;
-&lt;h2 id=&#34;私が持っていると思うスキル&#34;&gt;私が持っている(と思う)スキル&lt;/h2&gt;
-&lt;p&gt;アクティブ系に磁場を印加して観察する実験系を設計・制作しました。主に以下のような事をするスキルが身に付きました。&lt;/p&gt;
+&lt;p&gt;現在は、アクティブマターに磁場を印加して集団運動の応答を測定する実験を、バクテリアとコロイド系で行っています。&lt;/p&gt;
+&lt;h2 id=&#34;研究の副産物&#34;&gt;研究の副産物&lt;/h2&gt;
+&lt;p&gt;アクティブ系に磁場を印加して観察する実験系を設計・制作しました。&lt;/p&gt;
 &lt;h3 id=&#34;カメラ関連&#34;&gt;カメラ関連&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;USBカメラ（genicam）および高速撮像カメラ（FASTCAM）を制御して、撮影するコードの作成です。これを使い、後で記述するコイル周りのデバイスと同時に制御します。&lt;/li&gt;
@@ -163,6 +177,11 @@
 &lt;li&gt;本研究を進める上で、サンプルに磁場を当て、サンプルの観察を磁場モニタリングをする必要があります。そのような事ができる制御コードを作成しました。&lt;/li&gt;
 &lt;li&gt;デバイス（コイル電源およびコイル出力をモニタリングするデータロガー）はSCPI&amp;amp;VISA通信で制御します。&lt;/li&gt;
 &lt;li&gt;さらに、カメラと併せて並列処理で各デバイスを制御することで（実はVISAの仕様の関係でこれがかなりの曲者です）、上記の計測実験を実現しました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cadデータの作成&#34;&gt;CADデータの作成&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;顕微鏡本体とコイル等が干渉しないように、CADで各パーツを設計しました。&lt;/li&gt;
+&lt;li&gt;そのほか、実験小物（例えばチューブ立てやコイル巻線器など）も作成しています。&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

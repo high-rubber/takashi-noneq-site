@@ -1,4 +1,5 @@
 ![](/images/idximg_small.jpg)
+*Photo: in front of Tokyo University of Science when I presented a seminar at [Artificial Life Physics Lab](https://www.rs.tus.ac.jp/sumino_lab/) on May 27th, 2026*
 
 # Takashi Goto
 

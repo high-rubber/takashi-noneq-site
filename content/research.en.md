@@ -4,7 +4,7 @@ I am interested in how systems composed of non-equilibrium elements exhibit coll
 
 Currently, I conduct experiments with bacteria and colloidal systems to measure the response of orientational order under applied magnetic fields in active matter.
 
-## Skills I Believe I Have
+## By-products of research
 
 I designed and built experimental setups to apply magnetic fields to active systems and observe their behavior. Through this work, I developed skills in the following areas.
 

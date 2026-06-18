@@ -1,0 +1,98 @@
+<style>
+  .detail-toggle {
+    background: none;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    padding: 1px 8px;
+    cursor: pointer;
+    font-size: 0.85em;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+
+  .detail-toggle:hover {
+    opacity: 1;
+  }
+
+  .detail-inline {
+    padding: 6px 12px 10px;
+    font-size: 0.9em;
+    opacity: 0.85;
+    background: none;
+    margin-top: 6px;
+  }
+
+  .detail-inline table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 4px 0;
+  }
+
+  .md-content .detail-inline table th,
+  .md-content .detail-inline table td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .detail-inline table th:first-child,
+  .detail-inline table td:first-child {
+    background: rgba(127, 127, 127, 0.12);
+    background: color-mix(in srgb, currentColor 10%, transparent);
+    white-space: nowrap;
+  }
+
+  .cv-main-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .md-content .cv-main-table>tbody>tr>th,
+  .md-content .cv-main-table>tbody>tr>td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .cv-main-table>tbody>tr>th:first-child,
+  .cv-main-table>tbody>tr>td:first-child {
+    background: rgba(127, 127, 127, 0.12);
+    background: color-mix(in srgb, currentColor 10%, transparent);
+    white-space: nowrap;
+  }
+
+  .cv-main-table>tbody>tr:last-child>th,
+  .cv-main-table>tbody>tr:last-child>td {
+    border-bottom: none;
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('button.detail-toggle').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var cell = btn.closest('td');
+        var detail = cell.querySelector('.detail-inline');
+        if (detail) {
+          detail.remove();
+          btn.textContent = '▶ Details';
+        } else {
+          var detailInline = document.createElement('div');
+          detailInline.className = 'detail-inline';
+          detailInline.innerHTML = btn.dataset.detail;
+          cell.appendChild(detailInline);
+          btn.textContent = '▼ Details';
+        }
+      });
+    });
+  });
+</script>

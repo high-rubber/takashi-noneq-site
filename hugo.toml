@@ -5,61 +5,83 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [languages]
-  [languages.en]
-    label = "English"
-    weight = 1
-    title = "Takashi Goto"
+[languages.en]
+label = "English"
+weight = 1
+title = "Takashi Goto"
 
-    [[languages.en.menu.main]]
-      name = "CV"
-      url = "/en/cv/"
-      weight = 10
+[[languages.en.menu.main]]
+name = "CV"
+url = "/en/cv/"
+weight = 10
 
-    [[languages.en.menu.main]]
-      name = "Research"
-      url = "/en/research/"
-      weight = 11
+[[languages.en.menu.main]]
+name = "Research"
+url = "/en/research/"
+weight = 11
 
-    [[languages.en.menu.main]]
-      name = "Presentations"
-      url = "/en/presentations/"
-      weight = 12
+[[languages.en.menu.main]]
+name = "Presentations"
+url = "/en/presentations/"
+weight = 12
 
-    [[languages.en.menu.main]]
-      name = "Notebook"
-      url = "/en/notebook/"
-      weight = 20
+[[languages.en.menu.main]]
+name = "Notebook"
+url = "/en/notebook/"
+weight = 20
 
-  [languages.ja]
-    label = "日本語"
-    weight = 2
-    title = "後藤 崇志"
+[languages.ja]
+label = "日本語"
+weight = 2
+title = "後藤 崇志"
 
-    [[languages.ja.menu.main]]
-      name = "略歴・プロフィール"
-      url = "/ja/cv/"
-      weight = 10
+[[languages.ja.menu.main]]
+name = "略歴・プロフィール"
+url = "/ja/cv/"
+weight = 10
 
-    [[languages.ja.menu.main]]
-      name = "研究内容"
-      url = "/ja/research/"
-      weight = 11
+[[languages.ja.menu.main]]
+name = "研究内容"
+url = "/ja/research/"
+weight = 11
 
-    [[languages.ja.menu.main]]
-      name = "発表・学術講演"
-      url = "/ja/presentations/"
-      weight = 12
+[[languages.ja.menu.main]]
+name = "発表・学術講演"
+url = "/ja/presentations/"
+weight = 12
 
-    [[languages.ja.menu.main]]
-      name = "備忘録"
-      url = "/ja/notebook/"
-      weight = 20
+[[languages.ja.menu.main]]
+name = "備忘録"
+url = "/ja/notebook/"
+weight = 20
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
-  images = ["/images/icon.png"]
-  
-  [params.assets]
-    favicon = "/images/favicon.ico"
-    favicon16x16 = "/images/favicon-16x16.png"
-    favicon32x32 = "/images/favicon-32x32.png"
-    apple_touch_icon = "/images/apple-touch-icon.png"
+images = ["/images/icon.png"]
+defaultTheme = "dark"
+disableThemeToggle = true
+
+[params.profileMode]
+enabled = true
+title = "Takashi Goto"
+subtitle = "Non-equilibrium physics and biophysics"
+imageUrl = "/images/idximg.jpg"
+imageTitle = "Takashi Goto"
+imageWidth = 120                                    # custom size
+imageHeight = 120                                   # custom size
+
+[[params.profileMode.buttons]]
+name = "Github"
+url = "https://github.com/high-rubber"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/"
+
+[params.assets]
+favicon = "/images/favicon.ico"
+favicon16x16 = "/images/favicon-16x16.png"
+favicon32x32 = "/images/favicon-32x32.png"
+apple_touch_icon = "/images/apple-touch-icon.png"
