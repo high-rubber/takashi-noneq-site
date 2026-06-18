@@ -1,6 +1,32 @@
-![](/images/idximg_small.jpg)
-
 # CV / Profile
+
+<div class="cv-intro">
+  <table class="cv-main-table cv-intro-table">
+    <tbody>
+      <tr>
+        <td>Date & place<br> of birth</td>
+        <td>Jan 2000, Shizuoka, Japan. <br>(At the foot of Mt. Fuji)</td>
+      </tr>
+      <tr>
+        <td>Hometown</td>
+        <td>Shizuoka, Japan.</td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td>Japanese</td>
+      </tr>
+      <tr>
+        <td>E-mail</td>
+        <td>takashigoto_at_noneq.phys.s.u-tokyo.ac.jp</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <figure>
+  <img class="cv-intro-photo" src="/images/idximg_small.jpg" alt="Profile photo">
+  <figcaption>2026 May</figcaption>
+  </figure>
+</div>
 
 ## Education
 
@@ -49,7 +75,7 @@
   </tbody>
 </table>
 
-## Teaching experiences/certifications
+## Teaching Experiences / Certifications
 
 <table class="cv-main-table">
   <tbody>
@@ -83,7 +109,7 @@
 - The Physical Society of Japan
 - The Biophysical Society of Japan
 
-## Other experiences/activities
+## Other Experiences / Activities
 
 <table class="cv-main-table">
   <tbody>

@@ -1,0 +1,59 @@
+body,
+body.list,
+html[data-theme="dark"] body.list {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('/images/bg_1.png') center / cover fixed no-repeat;
+}
+
+.main,
+.header,
+.footer {
+  background: transparent;
+}
+
+/* Add a translucent panel behind markdown-rendered content for readability. */
+.post-content {
+  background: rgba(0, 0, 0, 0.80);
+  padding: 1.2rem 1.4rem;
+  border-radius: 12px;
+}
+
+.cv-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  margin-bottom: 0;
+}
+
+.cv-intro-photo {
+  width: 140px;
+  max-width: 40vw;
+  height: auto;
+  border-radius: 8px;
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.cv-intro figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cv-intro figure figcaption {
+  margin: 0;
+  text-align: center;
+}
+
+.cv-intro-table {
+  margin-top: 0;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 700px) {
+  .cv-intro {
+    flex-direction: column;
+  }
+}

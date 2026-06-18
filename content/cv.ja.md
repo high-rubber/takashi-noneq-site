@@ -1,5 +1,3 @@
-![](/images/takashigoto_hotpot_c1o3.jpg)
-
 # 略歴・プロフィール
 
 ## 経歴
