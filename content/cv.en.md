@@ -120,16 +120,16 @@
     <tr>
       <td>Oct 2023<br>- Present</td>
       <td>Biophysics Summer School for Young Scientists in Japan <br>
-      <button class="detail-toggle" data-detail="Oct 2023- Sep 2024: Organizer">▶ Details</button></td>
+      <button class="detail-toggle" data-detail="<table><tbody><tr><td>Oct 2025<br>- Present</td><td>The organizer of the Hands-on Seminar, in 66th summer school.</td></tr><tr><td>Oct 2023<br>- Sep 2024</td><td>The organizer of the Science Communication Seminar, in 64th summer school.<br>I invited  <a href='https://scholar.google.com/citations?user=6wqmQ1IAAAAJ&hl=en'>Dr. Fumiaki Yokoyama</a></td></tr></tbody></table>">▶ Details</button></td>
     </tr>
     <tr>
       <td>Sep 2022<br>- May 2025</td>
-      <td><a href="https://ut-10min.github.io/">"10-minute Presentations on Cutting-Edge Research at UTokyo"</a><br><button class="detail-toggle" data-detail="Organizer">▶ Details</button></td>
+      <td><a href="https://ut-10min.github.io/">"10-minute Presentations on Cutting-Edge Research at UTokyo"</a><br><button class="detail-toggle" data-detail="(TBA)">▶ Details</button></td>
     </tr>
     <tr>
       <td>Nov 2022<br>- Aug 2023</td>
       <td><a href="https://cmpss.jp/">Condensed Matter Physics Summer School</a>
-      <br><button class="detail-toggle" data-detail="68th Organizer<br>(Seminar E, <a href='https://scholar.google.com/citations?user=5SZGvboAAAAJ&hl=en'>Prof. Kyogo Kawaguchi</a> and <a href='https://scholar.google.com/citations?user=7pp8XUMAAAAJ&hl=en'>Prof. Takeshi Kawasaki</a>)">▶ Details</button></td>
+      <br><button class="detail-toggle" data-detail="The organizer of the Seminar E (statphys), in 68th summer school.<br> I invited <a href='https://scholar.google.com/citations?user=5SZGvboAAAAJ&hl=en'>Prof. Kyogo Kawaguchi</a> and <a href='https://scholar.google.com/citations?user=7pp8XUMAAAAJ&hl=en'>Prof. Takeshi Kawasaki</a>.">▶ Details</button></td>
     </tr>
   </tbody>
 </table>

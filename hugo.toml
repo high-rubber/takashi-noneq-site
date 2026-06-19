@@ -63,18 +63,9 @@ images = ["/images/icon.png"]
 defaultTheme = "dark"
 disableThemeToggle = true
 
-[params.profileMode]
-enabled = true
-title = "Takashi Goto"
-subtitle = "Non-equilibrium physics and biophysics"
-imageUrl = "/images/idximg.jpg"
-imageTitle = "Takashi Goto"
-imageWidth = 120                                    # custom size
-imageHeight = 120                                   # custom size
-
-[[params.profileMode.buttons]]
-name = "Github"
-url = "https://github.com/high-rubber"
+[params.homeInfoParams]
+Title = "Takashi Goto"
+Content = "Non-equilibrium physics and biophysics"
 
 [[params.socialIcons]]
 name = "github"

@@ -129,16 +129,16 @@
     &lt;tr&gt;
       &lt;td&gt;Oct 2023&lt;br&gt;- Present&lt;/td&gt;
       &lt;td&gt;Biophysics Summer School for Young Scientists in Japan &lt;br&gt;
-      &lt;button class=&#34;detail-toggle&#34; data-detail=&#34;Oct 2023- Sep 2024: Organizer&#34;&gt;▶ Details&lt;/button&gt;&lt;/td&gt;
+      &lt;button class=&#34;detail-toggle&#34; data-detail=&#34;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Oct 2025&lt;br&gt;- Present&lt;/td&gt;&lt;td&gt;The organizer of the Hands-on Seminar, in 66th summer school.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Oct 2023&lt;br&gt;- Sep 2024&lt;/td&gt;&lt;td&gt;The organizer of the Science Communication Seminar, in 64th summer school.&lt;br&gt;I invited  &lt;a href=&#39;https://scholar.google.com/citations?user=6wqmQ1IAAAAJ&amp;hl=en&#39;&gt;Dr. Fumiaki Yokoyama&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#34;&gt;▶ Details&lt;/button&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Sep 2022&lt;br&gt;- May 2025&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&#34;https://ut-10min.github.io/&#34;&gt;&#34;10-minute Presentations on Cutting-Edge Research at UTokyo&#34;&lt;/a&gt;&lt;br&gt;&lt;button class=&#34;detail-toggle&#34; data-detail=&#34;Organizer&#34;&gt;▶ Details&lt;/button&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&#34;https://ut-10min.github.io/&#34;&gt;&#34;10-minute Presentations on Cutting-Edge Research at UTokyo&#34;&lt;/a&gt;&lt;br&gt;&lt;button class=&#34;detail-toggle&#34; data-detail=&#34;(TBA)&#34;&gt;▶ Details&lt;/button&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Nov 2022&lt;br&gt;- Aug 2023&lt;/td&gt;
       &lt;td&gt;&lt;a href=&#34;https://cmpss.jp/&#34;&gt;Condensed Matter Physics Summer School&lt;/a&gt;
-      &lt;br&gt;&lt;button class=&#34;detail-toggle&#34; data-detail=&#34;68th Organizer&lt;br&gt;(Seminar E, &lt;a href=&#39;https://scholar.google.com/citations?user=5SZGvboAAAAJ&amp;hl=en&#39;&gt;Prof. Kyogo Kawaguchi&lt;/a&gt; and &lt;a href=&#39;https://scholar.google.com/citations?user=7pp8XUMAAAAJ&amp;hl=en&#39;&gt;Prof. Takeshi Kawasaki&lt;/a&gt;)&#34;&gt;▶ Details&lt;/button&gt;&lt;/td&gt;
+      &lt;br&gt;&lt;button class=&#34;detail-toggle&#34; data-detail=&#34;The organizer of the Seminar E (statphys), in 68th summer school.&lt;br&gt; I invited &lt;a href=&#39;https://scholar.google.com/citations?user=5SZGvboAAAAJ&amp;hl=en&#39;&gt;Prof. Kyogo Kawaguchi&lt;/a&gt; and &lt;a href=&#39;https://scholar.google.com/citations?user=7pp8XUMAAAAJ&amp;hl=en&#39;&gt;Prof. Takeshi Kawasaki&lt;/a&gt;.&#34;&gt;▶ Details&lt;/button&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
@@ -221,25 +221,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/presentations/</guid>
       <description>&lt;h1 id=&#34;presentations&#34;&gt;Presentations&lt;/h1&gt;
-&lt;p&gt;Under development&amp;hellip; please check back soon.&lt;/p&gt;
 &lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;
-&lt;!--
-- Magnetic field response of collective orientation of magnetotactic bacteria in quasi-2D space, Soft Liquid Matter Physics 2025, Tokyo, Japan, March 2025
-- Response of collective orientation of magnetotactic bacteria to a stationary magnetic field, International Active Matter Workshop 2025, Tokyo, Japan, Jan 2025
-
-## 2024
-
-- Orientational order and stationary magnetic-field response of bacterial collectives in a quasi-2D system, 12th Soft Matter Meeting, Osaka, Japan, Dec 2024
-
-- Observation of collective states of magnetotactic bacteria confined in circular wells, Frontiers in Non-equilibrium Physics 2024, Kyoto, Japan, Jul 2024
-- +2 Japanese presentations (see detail)
-  - Orientational order of magnetotactic bacteria in a quasi-2D system, 2024 Annual (79th) Meeting (The Physical Society of Japan), Hokkaido, Japan, Sep 2024
-  - Magnetic-field response of bacterial collectives in a quasi-2D system, Soft Matter Meeting for Young Researchers &amp; Students, Chiba, Japan, Nov 2024
-
-## 2023
-
-- Collective motion and magnetic-field response of magnetotactic bacteria, Kanto Soft Matter, Kanagawa, Japan, Oct 2023
---&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;Magnetic field response of collective orientation of magnetotactic bacteria in quasi-2D space, Soft Liquid Matter Physics 2025, Tokyo, Japan, March 2025&lt;/li&gt;
+&lt;li&gt;Response of collective orientation of magnetotactic bacteria to a stationary magnetic field, International Active Matter Workshop 2025, Tokyo, Japan, Jan 2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Orientational order and stationary magnetic-field response of bacterial collectives in a quasi-2D system, 12th Soft Matter Meeting, Osaka, Japan, Dec 2024&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Observation of collective states of magnetotactic bacteria confined in circular wells, Frontiers in Non-equilibrium Physics 2024, Kyoto, Japan, Jul 2024&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -247,10 +240,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/research/</guid>
       <description>&lt;h1 id=&#34;research&#34;&gt;Research&lt;/h1&gt;
-&lt;p&gt;I am interested in how systems composed of non-equilibrium elements exhibit collective phenomena. Examples include granular systems, where particle sizes are large and thermal relaxation is negligible, and active matter systems, where particles consume energy and self-propel.&lt;/p&gt;
-&lt;p&gt;Currently, I conduct experiments with bacteria and colloidal systems to measure the response of orientational order under applied magnetic fields in active matter.&lt;/p&gt;
-&lt;h2 id=&#34;by-products-of-research&#34;&gt;By-products of research&lt;/h2&gt;
-&lt;p&gt;I designed and built experimental setups to apply magnetic fields to active systems and observe their behavior. Through this work, I developed skills in the following areas.&lt;/p&gt;</description>
+&lt;p&gt;I am interested in phenomena of systems composed of non-equilibrium elements. One example is active matter, which consume energy and turns it into propulsion. Another example is granular particles, whose particle sizes are large enough and thus thermal relaxation is negligible.
+Currently, I conduct experiments with bacteria and colloidal systems to measure the magnetic response of active matter.
+&lt;img class=&#34;research-hero-image&#34; src=&#34;http://localhost:1313/images/research.png&#34; alt=&#34;Research image&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;by-products-of-my-study&#34;&gt;By-products of my study&lt;/h2&gt;
+&lt;p&gt;I designed and built experimental setups to apply magnetic fields to active systems and observe their behavior. Through my projects, I developed skills in the following areas.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

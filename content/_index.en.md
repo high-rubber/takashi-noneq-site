@@ -3,17 +3,17 @@
 
 # Takashi Goto
 
-I study nonequilibrium phenomena in many-body soft matter systems.
+I study nonequilibrium phenomena in soft matter.
 
 ## Research Keywords
 
 - Soft matter
-- Biological systems (as materials and observation targets)
+- Biological systems
 - Nonequilibrium
 
 ## Affiliation
 
-- Department of Physics, Graduate School of Science, The University of Tokyo, [Takeuchi Laboratory](https://lab.kaztake.org/)
+- [Takeuchi Laboratory](https://lab.kaztake.org/) in Department of Physics, Graduate School of Science, The University of Tokyo
 
 ## Update History
 

@@ -12,6 +12,12 @@ html[data-theme="dark"] body.list {
   background: transparent;
 }
 
+/* Match the top navigation bar with the markdown panel's dark overlay. */
+.header-nav {
+  background: rgba(0, 0, 0, 0.80);
+  border-radius: 12px;
+}
+
 /* Add a translucent panel behind markdown-rendered content for readability. */
 .post-content {
   background: rgba(0, 0, 0, 0.80);
@@ -52,8 +58,100 @@ html[data-theme="dark"] body.list {
   flex: 1 1 auto;
 }
 
+.research-hero-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.research-gallery {
+  margin-top: 0.75rem;
+}
+
+.research-gallery-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.research-gallery-track::-webkit-scrollbar {
+  display: none;
+}
+
+.research-gallery-slide {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  scroll-snap-align: start;
+  align-items: start;
+  position: relative;
+}
+
+.research-gallery img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.research-gallery-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.35rem;
+  pointer-events: none;
+}
+
+.research-gallery-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  pointer-events: auto;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+.research-gallery-btn:hover,
+.research-gallery-btn:focus-visible,
+.research-gallery-btn:focus,
+.research-gallery-btn:visited {
+  background: rgba(255, 255, 255, 0.28);
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
 @media (max-width: 700px) {
   .cv-intro {
     flex-direction: column;
+  }
+
+  .research-gallery-slide {
+    gap: 0.5rem;
   }
 }
