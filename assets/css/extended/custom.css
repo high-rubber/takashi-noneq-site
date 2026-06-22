@@ -14,13 +14,13 @@ html[data-theme="dark"] body.list {
 
 /* Match the top navigation bar with the markdown panel's dark overlay. */
 .header-nav {
-  background: rgba(0, 0, 0, 0.80);
+  background: rgba(0, 24, 24, 0.95);
   border-radius: 12px;
 }
 
 /* Add a translucent panel behind markdown-rendered content for readability. */
 .post-content {
-  background: rgba(0, 0, 0, 0.80);
+  background: rgba(0, 24, 24, 0.95);
   padding: 1.2rem 1.4rem;
   border-radius: 12px;
 }
