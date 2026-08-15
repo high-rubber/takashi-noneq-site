@@ -11,15 +11,15 @@ The output is saved as a new image file.
 import cv2
 import numpy as np
 
-INPUT_IMAGE = "bg_0.png"
-OUTPUT_IMAGE = "output_colored.png"
+INPUT_IMAGE = "qrcode2025_hp.png"
+OUTPUT_IMAGE = "qrcode2025_hp_colored.png"
 
 # min -> COLOR_BLACK
 # max -> COLOR_WHITE
 GRAY_MIN = 64
 GRAY_MAX = 255
-COLOR_BLACK = "#000000"
-COLOR_WHITE = "#00ffff"
+COLOR_BLACK = "#000066"
+COLOR_WHITE = "#ffffff"
 
 
 def hex_to_rgb(hex_color: str) -> np.ndarray:

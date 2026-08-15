@@ -105,6 +105,14 @@ html[data-theme="dark"] body.list {
   display: block;
 }
 
+.research-gallery-caption {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 0.82em;
+  color: rgba(255, 255, 255, 0.65);
+  margin: -1.5rem 0 0;
+}
+
 .research-gallery-controls {
   position: absolute;
   top: 50%;
